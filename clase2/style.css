@@ -1,0 +1,35 @@
+.texto1 {
+  font-family:monospace
+}
+
+.texto2 {
+  font-family:sans-serif
+}
+
+.texto3 {
+  font-family:serif
+}
+
+.texto4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto5 {
+  font-family: "Playwrite US Trad Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: orange;
+}
+
+.caja-div {
+  background-color: red;
+  height: 50px;
+  border: 2px solid green;
+}
+
+.caja-span {
+  background-color: blue;
+  height: 50px;
+  border: 2px solid green;
+}
