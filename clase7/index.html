@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <!-- mi CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Clase 7</title>
+  </head>
+  <body>
+    <h1>Clase 7</h1>
+    <hr />
+    <!-- Sección que contiene el juego -->
+    <section class="container mt-5">
+      <div class="card shadow-sm">
+        <div class="card-header text-center bg-primary text-white">
+          <h2>Adivina el número</h2>
+        </div>
+        <div class="card-body text-center">
+          <p class="card-text">
+            Estoy pensando un número entre el 1 y el 100. ¡Intenta adivinarlo!
+          </p>
+          <!-- Ingreso de número por parte del usuario -->
+          <div class="input-group mb-3">
+            <input
+              id="guessInput"
+              type="number"
+              class="form-control"
+              placeholder="Ingrese su número"
+            />
+            <button id="guessButton" class="btn btn-primary">Adivinar</button>
+          </div>
+          <!-- Mostrar mensajes al usuario -->
+          <p id="message" class="fs-5"></p>
+          <button id="restartButton" class="btn btn-secondary">
+            Jugar de nuevo
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript de Bootstrap -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- mi JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
