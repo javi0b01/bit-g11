@@ -84,5 +84,5 @@
   - Primer proyecto completo HTML + CSS + JAVASCRIPT
 
 ## Software Developer
-Built by [JAVI](https://github.com/javi0b01) :copyright: 2025
+Built by [JAVI](https://github.com/javi0b01) :copyright: 2025  
 Found a bug or have an idea? [Contact me](https://www.linkedin.com/in/javi0b01/).
