@@ -67,6 +67,36 @@ h4 {
   margin: 0;
 }
 /* Estilos para el elemento de la lista */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+.task-item:last-child {
+  border-bottom: none;
+}
+.task-item:hover {
+  background-color: #f9f9f9;
+}
+/* Estilos para tareas completadas */
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+/* Estilos para botón */
+.task-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.task-item button:hover {
+  background-color: rgb(246, 167, 49);
+}
 /* Estilos para las categorías */
 #categories-display {
   margin-top: 20px;
