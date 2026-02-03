@@ -97,6 +97,20 @@ h4 {
 .task-item button:hover {
   background-color: rgb(246, 167, 49);
 }
+/* Estilos para mensaje de bienvenida */
+.message {
+  padding: 15px;
+  background-color: rgb(135, 247, 135);
+  color: green;
+  border: 1px solid rgb(212, 207, 207);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* Miscelaneos */
+.hidden {
+  display: none;
+}
 /* Estilos para las categorías */
 #categories-display {
   margin-top: 20px;

@@ -20,6 +20,31 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   setInterval(updateClock, 1000);
 
+  // Tema: Timeout
+  // Mensaje de bienvenida
+  setTimeout(() => {
+    welcomeMessage.textContent = 'Bienvenido a mi manejador de tareas.';
+    welcomeMessage.classList.remove('hidden');
+    setTimeout(() => {
+      welcomeMessage.classList.add('hidden');
+    }, 5000);
+  }, 1500);
+
+  // Tema: SETS
+  function demonstrateSets() {
+    const categories = [
+      'Trabajo',
+      'Personal',
+      'Trabajo',
+      'Compras',
+      'Personal',
+    ];
+    const uniqueCategories = new Set(categories);
+    // Spread operator
+    const categoriesArray = [...uniqueCategories];
+    categoriesDisplay.textContent = categoriesArray.join(', ');
+  }
+
   // Tema: JSON.stringify convierte nuestro arreglo en string 'JSON'
   function saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -29,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderTasks() {
     // Limpiar el contenido previo
     taskList.innerHTML = '';
-    console.log(tasks);
     // Tema: ciclos ('foreach')
     // Crear un elemento de lista por cada elemento en el arreglo
     tasks.forEach((task, index) => {
@@ -116,4 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
       addTask();
     }
   });
+
+  // Demo Sets
+  demonstrateSets();
 });
