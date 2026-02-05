@@ -20,6 +20,17 @@ names.forEach((name) => {
   originalNames.appendChild(li);
 });
 
+/* Filtrar nombres */
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('keyup', () => {
+  const searchTerm = searchInput.value.toLowerCase();
+  console.log(searchTerm);
+  const filteredNames = names.filter((name) => {
+    return name.toLowerCase().includes(searchTerm);
+  });
+  console.log('filteredNames:', filteredNames);
+});
+
 /* Bucles - Ejemplos */
 // for
 const forLoopNames = [];
