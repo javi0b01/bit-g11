@@ -21,6 +21,26 @@
   - Postman
   - CRUD (Create Read Update Delete)
   - JSON (JavaScript Object Notation)
+  - Multer
+  * Manejo de errores
+    - try...catch
+  * Manejo de archivos
+    - file system
+  * Regulando permisos y accesos
+    - Authentication
+    - Authorization
+  * Proteger los datos
+    - Sanitizer
+
+* MongoDB
+  - NoSQL
+  - Instalación
+  - Shell
+  - Mongoose
+  - Modelado de documento
+  - Promesas
+  * Unión de colecciones
+    - Agregate
 
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01) :copyright: 2026  
