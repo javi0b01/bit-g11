@@ -9,10 +9,13 @@
   - MVC (Modelo Vista Controlador)
   - Modelo/Arquitectura Cliente-Servidor
   - Verbos HTTP
+  - Códigos de respuesta HTTP
   * Express
     - Instalación
     - Servidor
-    - API
+    * API (Application Programming Interface)
+      * RESTful API
+        - Endpoint
     - URL
     * Request
       - Params
@@ -41,6 +44,8 @@
   - Promesas
   * Unión de colecciones
     - Agregate
+
+- Debuggear
 
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01) :copyright: 2026  
