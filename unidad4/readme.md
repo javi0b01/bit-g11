@@ -1,9 +1,9 @@
 # Unidad 4
 * MEAN stack (Frontend)
-  - Frontend
-  - HTML
-  - CSS
-  - JavaScript
+  * Frontend
+    - HTML
+    - CSS
+    - JavaScript
   * TypeScript
     - Tipado
     - Transpilador
@@ -15,6 +15,8 @@
     - Enums
   - Framework
   - Angular
+
+- Inferencia de tipos | Tipado implícito
 
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01) :copyright: 2026  

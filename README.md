@@ -12,13 +12,13 @@ Bootcamp Desarrollo Web - Virtual Asistido
   - bit-1
   - bit-back (API probada con postman - GET, POST, PUT, DELETE)
 
-## TODO list
-
-- [ ] Crear repositorio bit-back en GitHub
-- [ ] Actualizar desde local el README
-- [ ] Verificar instalación de node y npm
-- [ ] Verificar instalación de postman
-- [ ] Crear proyecto de nodejs
+- fecha
+- discord
+- repo
+- readme
+- crud
+- postman
+- idea dif
 
 ## Software Developer
 
