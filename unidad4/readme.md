@@ -14,7 +14,10 @@
     - Tuplas
     - Enums
   - Framework
-  - Angular
+  * Angular
+    - SPA (Single Page Application)
+    - Componentes
+    - La manera de Angular
 
 - Inferencia de tipos | Tipado implícito
 
