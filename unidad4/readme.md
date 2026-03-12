@@ -5,7 +5,9 @@
     - CSS
     - JavaScript
   * TypeScript
-    - Tipado
+    * Tipado
+      - Inferencia de tipos | Tipado implícito
+      - Tipado explícito
     - Transpilador
     - Compilador
     - Instalación
@@ -13,13 +15,29 @@
     - Tipos de dato
     - Tuplas
     - Enums
+    - Objetos
+    - Funciones
+    - POO
+    - Interfaces
+    - Aserciones
   - Framework
   * Angular
-    - SPA (Single Page Application)
-    - Componentes
     - La manera de Angular
+    - SPA (Single Page Application)
+    - Instalación
+    - Primer proyecto
+    - Componentes
+    - Módulos
+    * Decoradores
+      - Input
+      - Output
+    - Formularios
+    - Enrutamiento
+    * Almacenamiento local
+      - local storage
+      - session storage
 
-- Inferencia de tipos | Tipado implícito
+- Proyecto full-stack
 
 ## Software Developer
 Built by [JAVI](https://github.com/javi0b01) :copyright: 2026  

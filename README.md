@@ -6,19 +6,8 @@ Bootcamp Desarrollo Web - Virtual Asistido
 - [Unidad 2](./unidad2/readme.md)
 - [Unidad 3](./unidad3/readme.md)
 
-## Entrega de proyectos calificables
-
-- Discord
-  - bit-1
-  - bit-back (API probada con postman - GET, POST, PUT, DELETE)
-
-- fecha
-- discord
-- repo
-- readme
-- crud
-- postman
-- idea dif
+* Entrega de proyecto módulo 4: full-stack (back + front)
+  - 25 marzo 2026
 
 ## Software Developer
 
