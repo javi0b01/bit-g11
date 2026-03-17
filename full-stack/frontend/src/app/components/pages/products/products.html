@@ -1,0 +1,5 @@
+<ul>
+  @for(product of products; track product._id){
+  <li>{{product.name}}: {{product.price | currency}}</li>
+  }
+</ul>
